@@ -1,0 +1,75 @@
+body{
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+}
+
+h4{
+    margin: 5px;
+
+}
+
+p{
+    padding: 1rem;
+    border: 2px;
+    margin: 0;
+    background-color: #dddddd;
+    color: #222831;
+    border-radius: 10px;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    max-width: 90%;
+    background-color: #222831;
+    color: azure;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.header{
+    display: flex;
+    position: relative;
+    left: 5;
+}
+
+.logo{
+    height: 50px;
+}
+
+.outgoing-msg{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: 5px;
+}
+
+.incoming-msg{
+    display: flex;
+    flex-direction: column;
+    margin-right: auto;
+    margin-left: 5px;
+}
+
+.chat-area{
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    height: 500px;
+}
+
+.input-area{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#textarea{
+    height: 20px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color:  #dddddd;
+    outline: none;
+}

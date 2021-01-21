@@ -1,0 +1,16 @@
+{
+  "name": "group-chat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Tanishq Patel",
+  "license": "ISC",
+  "dependencies": {
+    "eslint": "^7.18.0",
+    "express": "^4.17.1",
+    "socket.io": "^3.1.0"
+  }
+}
