@@ -1,5 +1,6 @@
 # Chat App
-A Chat App created using socket.io.
+
+It is a Simple and Responsive Countdown Web Application with Start, stop, and pause functionality made using Javascript and Express.
 
 > Visit **[Website](https://tanixq-chatapp.herokuapp.com/)**
 
